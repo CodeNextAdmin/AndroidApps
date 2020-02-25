@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/newColor"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/quiz" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/answer_text_view"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        android:text="@string/my_txt_q"
+
+        />
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_marginTop="34dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/true_btn"
+            android:layout_width="wrap_content"
+            android:text="@string/true_text"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/false_btn"
+            android:layout_width="wrap_content"
+            android:text="@string/false_text"
+
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="124dp"
+            android:id="@+id/next_question_btn"
+            android:layout_height="125dp"
+            android:background="@drawable/nextbtn"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

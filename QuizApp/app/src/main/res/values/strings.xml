@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="my_txt_q">My Text Question</string>
+    <string name="true_text">True</string>
+    <string name="false_text">False</string>
+
+    <string name="q1">Is the pope catholic?</string>
+    <string name="q2">Does a bear shit in the woods?</string>
+    <string name="q3">Does a bear shit on the pope?</string>
+    <string name="q4">Is the bear catholic?</string>
+    <string name="q5">Do you love me?</string>
+    <string name="q6">Do Androids dream of electric Sheep?</string>
+    <string name="q7">Do Androids dream of melted Cabbage?</string>
+    <string name="q8">do you hate me?</string>
+    <string name="Next">Next</string>
+
+
+</resources>

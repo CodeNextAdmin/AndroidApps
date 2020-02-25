@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "323083189493",
+    "firebase_url": "https://suet-3b339.firebaseio.com",
+    "project_id": "suet-3b339",
+    "storage_bucket": "suet-3b339.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323083189493:android:f22f0d864a276b0a6f99bc",
+        "android_client_info": {
+          "package_name": "com.example.suet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323083189493-77er9b2ij307sdblmjs27ja587r5cae3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.suet",
+            "certificate_hash": "db7c5de39fe7f1b491d10559112ec8872699cd68"
+          }
+        },
+        {
+          "client_id": "323083189493-57eg1bso9ud0onmkc1b5rfcq2gcis8mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQwYrusntMnLhTGseEBv7oEGXRbCXuDIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323083189493-57eg1bso9ud0onmkc1b5rfcq2gcis8mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

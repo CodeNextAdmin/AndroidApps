@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#2196F3"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="681dp"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:src="@mipmap/ic_launcher"></ImageView>
+
+                <SeekBar
+                    android:id="@+id/seekBar"
+                    style="@style/Widget.AppCompat.SeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:progress="40" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:src="@mipmap/ic_launcher"></ImageView>
+
+                <CalendarView
+                    android:id="@+id/calendarView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:src="@mipmap/ic_launcher"></ImageView>
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:src="@mipmap/ic_launcher"></ImageView>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo posuere risus, vel blandit tortor ultrices quis. Suspendisse congue enim quis vulputate bibendum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus vel enim eu leo accumsan porta. Cras quis ligula ante. Quisque in condimentum turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu posuere nunc. Cras blandit tortor libero, at ornare lacus eleifend ut. Nullam cursus dui interdum enim accumsan faucibus. Fusce ullamcorper massa non quam vestibulum vestibulum et quis lacus. Sed faucibus dui diam, ac iaculis augue finibus vitae. Sed vel orci accumsan, porttitor orci ac, laoreet mi."
+                    />
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:src="@mipmap/ic_launcher"></ImageView>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo posuere risus, vel blandit tortor ultrices quis. Suspendisse congue enim quis vulputate bibendum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus vel enim eu leo accumsan porta. Cras quis ligula ante. Quisque in condimentum turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu posuere nunc. Cras blandit tortor libero, at ornare lacus eleifend ut. Nullam cursus dui interdum enim accumsan faucibus. Fusce ullamcorper massa non quam vestibulum vestibulum et quis lacus. Sed faucibus dui diam, ac iaculis augue finibus vitae. Sed vel orci accumsan, porttitor orci ac, laoreet mi."
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:src="@mipmap/ic_launcher"></ImageView>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo posuere risus, vel blandit tortor ultrices quis. Suspendisse congue enim quis vulputate bibendum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus vel enim eu leo accumsan porta. Cras quis ligula ante. Quisque in condimentum turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu posuere nunc. Cras blandit tortor libero, at ornare lacus eleifend ut. Nullam cursus dui interdum enim accumsan faucibus. Fusce ullamcorper massa non quam vestibulum vestibulum et quis lacus. Sed faucibus dui diam, ac iaculis augue finibus vitae. Sed vel orci accumsan, porttitor orci ac, laoreet mi."
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:src="@mipmap/ic_launcher"></ImageView>
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo posuere risus, vel blandit tortor ultrices quis. Suspendisse congue enim quis vulputate bibendum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus vel enim eu leo accumsan porta. Cras quis ligula ante. Quisque in condimentum turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu posuere nunc. Cras blandit tortor libero, at ornare lacus eleifend ut. Nullam cursus dui interdum enim accumsan faucibus. Fusce ullamcorper massa non quam vestibulum vestibulum et quis lacus. Sed faucibus dui diam, ac iaculis augue finibus vitae. Sed vel orci accumsan, porttitor orci ac, laoreet mi."
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:src="@mipmap/ic_launcher"></ImageView>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

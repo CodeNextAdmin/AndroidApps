@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rain</string>
+    <string name="your_account_has">Your account has:</string>
+    <string name="money_amt">$200</string>
+
+    <string name="amount">$200</string>
+    <string name="make_it_rain">Make it Rain</string>
+    <string name="show_tag">show_tag</string>
+</resources>

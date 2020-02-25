@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Suet</string>
+    <string name="action_settings">Settings</string>
+    <string name="show_progress">Progress</string>
+
+    <string-array name="workout_types">
+        <item>Push Ups</item>
+        <item>Running miles</item>
+        <item>Hike</item>
+        <item>Sit ups</item>
+        <item>Curls</item>
+        <item>Squats</item>
+        <item>Bike miles</item>
+        <item>Lateral arm lifts</item>
+    </string-array>
+</resources>

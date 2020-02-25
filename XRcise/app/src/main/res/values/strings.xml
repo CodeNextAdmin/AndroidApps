@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">XRcise</string>
+    <string name="action_settings">Settings</string>
+    <string name="Title">XRcise</string>
+    <string name="enter_item">Enter Item</string>
+    <string name="enter_activity_hing">Enter Activity</string>
+    <string name="enter_amount_hint">Enter amount</string>
+    <string name="save_button">Save</string>
+</resources>

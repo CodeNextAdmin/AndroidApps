@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/chango"
+        android:paddingTop="10dp"
+        android:text="Hello Owner"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+
+
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/monster_state"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:padding="20dp"
+
+
+
+        android:src="@drawable/monster_2"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/food_progress"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:padding="15dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:max="100"
+            android:progress="100" />
+        <ProgressBar
+            android:id="@+id/love_progress"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:padding="15dp"
+            android:layout_width="0dp"
+            android:layout_height="30"
+            android:max="100"
+            android:progress="100"/>
+        <ProgressBar
+            android:id="@+id/water_progress"
+            android:padding="15dp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:max="100"
+            android:progress="100"
+            android:layout_height="30" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <TextView
+
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:text="Food"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp" />
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:text="Love"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+             />
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:text="Water"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+
+              />
+
+    </LinearLayout>
+
+
+</LinearLayout>
