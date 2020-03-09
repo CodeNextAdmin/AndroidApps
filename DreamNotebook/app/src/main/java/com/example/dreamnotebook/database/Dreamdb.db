@@ -1,0 +1,40 @@
+package com.example.dreamnotebook.database;
+
+import android.content.Context;
+
+import com.example.dreamnotebook.interfaces.DreamDao;
+import com.example.dreamnotebook.model.Dream;
+
+import androidx.room.Database;
+import androidx.room.Room;
+import androidx.room.RoomDatabase;
+
+
+@Database(entities = {Dream.class}, version=1)
+public abstract class Dreamdb extends RoomDatabase {
+
+
+
+    public abstract DreamDao getDreamDao();
+
+    public static Dreamdb dreamdb;
+
+    public static Dreamdb getInstance(Context context){
+
+
+        if(dreamdb ==null)
+            dreamdb = buildDatabaseInstance(context);
+
+
+        return dreamdb;
+
+    }
+
+    private static Dreamdb buildDatabaseInstance(Context context) {
+
+        return Room.databaseBuilder(context, Dreamdb.class, "dreamsdb.db" ).allowMainThreadQueries().build();
+
+
+
+    }
+}
